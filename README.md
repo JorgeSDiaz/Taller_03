@@ -40,6 +40,7 @@ Definir siempre antes del run, los métodos get que deseamos definir, el acceso 
 **Windows**
 ![Help](https://i.imgur.com/jiD5oKg.png)
 **Ubuntu**
+![Imgur](https://i.imgur.com/ieGPee6.png)
 
 ### StaticFiles
 Se puede definir una ruta local donde se tomarán archivos para poder responder de las consultas en el navegador, cabe decir que la ruta por defecto apunta a la carpeta "resources" dentro del proyecto, en el caso de desear poner alguna otra ruta, se haría de la siguiente manera
@@ -52,6 +53,7 @@ Se vería algo así
 **Windows**
 ![Image](https://i.imgur.com/a1gcjkL.png)
 **Ubuntu**
+![Imgur](https://i.imgur.com/S7A5ew3.png)
 
 Recuerde que una vez empieza a correr el servidor estas rutas se generan de manera automática
 
@@ -66,12 +68,14 @@ Veamos un ejemplo con "/hello", por defecto el content type sera "text/plain"
 **Windows**
 ![Hello](https://i.imgur.com/Oypzv8s.png)
 **Ubuntu**
+![Imgur](https://i.imgur.com/6ogwJGy.png)
 
 Tambien podemos decidir en qué formato nos deberá dar la respuesta, especificando de la siguiente manera
 ![json](https://i.imgur.com/o7IDY4b.png)
 **Windows**
 ![HelloJson](https://i.imgur.com/GNxIucq.png)
 **Ubuntu**
+![Imgur](https://i.imgur.com/K1EA9Kr.png)
 
 Si lo deseamos también podemos definir rutas que consuman servicios rest enlazados a una Api o conexión Http, lo haremos de la siguiente forma
 ![RService](https://i.imgur.com/p5Uz6fc.png)
@@ -79,7 +83,7 @@ Para el ejemplo definimos una conexión al servicio api https://www.omdbapi.com,
 **Windows**
 ![Rest](https://i.imgur.com/K6cPyCC.png)
 **Ubuntu**
-
+![Imgur](https://i.imgur.com/iSSlQzU.png)
 
 ---
 ## Corriendo test
